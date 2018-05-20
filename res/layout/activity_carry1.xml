@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideOverlay"
+    tools:context=".Carry1">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        tools:context=".Carry1">
+
+        <TextView
+            android:id="@+id/expeople"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/expeople"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/rgroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="159dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/expeople"
+            android:onClick="people">
+
+            <RadioButton
+                android:id="@+id/exp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/expeople"
+                android:checked="false"
+                android:cursorVisible="false"
+                android:onClick="people"
+                android:text="@string/exp2" />
+
+            <RadioButton
+                android:id="@+id/exp4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/exp2"
+                android:duplicateParentState="false"
+                android:onClick="people"
+                android:text="@string/exp4" />
+
+            <RadioButton
+                android:id="@+id/exp5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/exp4"
+                android:layout_below="@+id/exp4"
+                android:checked="false"
+                android:onClick="people"
+                android:text="@string/exp5" />
+
+            <RadioButton
+                android:id="@+id/exp7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/exp4"
+                android:layout_below="@+id/exp5"
+                android:onClick="people"
+                android:text="@string/exp7" />
+
+            <RadioButton
+                android:id="@+id/exp9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/exp4"
+                android:layout_below="@+id/exp7"
+                android:onClick="people"
+                android:text="Up to 9" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rgroup1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:text="@string/body"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        <RadioGroup
+            android:id="@+id/rgroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/body">
+
+            <RadioButton
+                android:id="@+id/roadster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/body"
+                android:onClick="car_layout"
+                android:text="@string/roadster"
+                tools:onClick="people" />
+
+            <RadioButton
+                android:id="@+id/coupe2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/roadster"
+                android:onClick="car_layout"
+                android:text="@string/coupe2"
+                tools:onClick="people" />
+
+            <RadioButton
+                android:id="@+id/coupe4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/coupe2"
+                android:onClick="car_layout"
+                android:text="@string/coupe4"
+                tools:onClick="people" />
+
+            <RadioButton
+                android:id="@+id/hatchback3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/coupe4"
+                android:onClick="car_layout"
+                android:text="@string/hatchback3"
+                tools:onClick="people" />
+
+            <RadioButton
+                android:id="@+id/hatchback5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hatchback3"
+                android:onClick="car_layout"
+                android:text="@string/hatchback5"
+                tools:onClick="people" />
+
+            <RadioButton
+                android:id="@+id/saloon4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hatchback5"
+                android:onClick="car_layout"
+                android:text="@string/saloon4" />
+
+            <RadioButton
+                android:id="@+id/estate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/saloon4"
+                android:onClick="car_layout"
+                android:text="@string/estate" />
+
+
+            <RadioButton
+                android:id="@+id/suv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/estate"
+                android:onClick="car_layout"
+                android:text="@string/suv3" />
+
+            <RadioButton
+                android:id="@+id/suv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/suv3"
+                android:onClick="car_layout"
+                android:text="@string/suv5" />
+
+            <RadioButton
+                android:id="@+id/minivan7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/suv5"
+                android:onClick="car_layout"
+                android:text="@string/minivan7" />
+
+            <RadioButton
+                android:id="@+id/van9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/minivan7"
+                android:onClick="car_layout"
+                android:text="@string/van9" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="backPage"
+                android:text="@string/Back" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="nextPage"
+                android:text="@string/next" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CarAdvisor</string>
+    <string name="welcome">Welcome! This app is designed to help you find the car on your demand.</string>
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
+    <string name="purpose">What is your purpose for buying a car?</string>
+    <string name="carry1">To carry myself from one place to another</string>
+    <string name="carry2">To carry myself from one place to another with SOME FUN</string>
+    <string name="work3">To use it as working instrument</string>
+    <string name="expeople">How many passengers do you expect to carry with (you are included)?</string>
+    <string name="body">Car body style:</string>
+    <string name="doors">Door number:</string>
+    <string name="roadster">Roadster</string>
+    <string name="hatchback3">3 door hatchback</string>
+    <string name="hatchback5">5 door hatchback</string>
+    <string name="coupe2"> 2 door coupe</string>
+    <string name="coupe4">4 door coupe</string>
+    <string name="saloon4">4 door saloon</string>
+    <string name="estate">5 door estate</string>
+    <string name="minivan7"> 7 seater minivan</string>
+    <string name="van9"> 9 seater van</string>
+    <string name="suv3">3 door SUV</string>
+    <string name="suv5">5 door SUV</string>
+    <string name="offroad3">3 door full-size offroader</string>
+    <string name="offroad5">5 door full-size offroader</string>
+    <string name="price">Expected price in USD:</string>
+    <string name="gearbox">Gearbox:</string>
+    <string name="trunk">What kind of trunk do you expect to get?</string>
+    <string name="next">Countinue</string>
+    <string name="Back">Back</string>
+    <string name="spacious">Spacious</string>
+    <string name="small">Small</string>
+    <string name="manual">Manual</string>
+    <string name="auto">Automatic</string>
+    <string name="both">Both</string>
+    <string name="exp2">2</string>
+    <string name="exp4">4</string>
+    <string name="exp5">Up to 5</string>
+    <string name="exp7">Up to 7</string>
+    <string name="exp9">Up to 9</string>
+    <string name="usd15">Up to 15000</string>
+    <string name="usd20">Up to 20000</string>
+    <string name="usd30">Up to 30000</string>
+    <string name="usd40">Up to 40000</string>
+    <string name="usd50">Up to 50000</string>
+    <string name="usd_more">More than 50000</string>
+    <string name="end_survey">End survey</string>
+
+</resources>
+

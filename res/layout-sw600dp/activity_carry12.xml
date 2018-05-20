@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Carry12">
+
+
+    <TextView
+        android:id="@+id/trunk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/trunk" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/trunk">
+
+        <RadioButton
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/spacious" />
+
+        <RadioButton
+            android:id="@+id/no"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/small" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/end_suvey"
+        android:layout_marginBottom="41dp"
+        android:onClick="backPage"
+        android:text="@string/Back" />
+
+    <Button
+        android:id="@+id/end_suvey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="EndSurvey"
+        android:text="@string/end_survey" />
+
+    <TextView
+        android:id="@+id/gearbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/gearbox" />
+
+    <RadioGroup
+        android:layout_width="112dp"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/gearbox">
+
+        <RadioButton
+            android:id="@+id/manual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/manual" />
+
+        <RadioButton
+            android:id="@+id/auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/auto" />
+
+        <RadioButton
+            android:id="@+id/both"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/both" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="233dp"
+        android:text="@string/price" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="362dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/price">
+
+        <RadioButton
+            android:id="@+id/usd15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/usd15" />
+
+        <RadioButton
+            android:id="@+id/usd20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/usd20" />
+
+        <RadioButton
+            android:id="@+id/usd30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/usd30" />
+
+        <RadioButton
+            android:id="@+id/usd40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/usd40" />
+
+        <RadioButton
+            android:id="@+id/usd50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/usd50" />
+
+        <RadioButton
+            android:id="@+id/usd_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/usd_more" />
+    </RadioGroup>
+</RelativeLayout>
